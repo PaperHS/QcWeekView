@@ -19,7 +19,7 @@ public class WeekViewEvent {
     private String mLocation;
     private int mColor;
     private boolean mAllDay;
-    private HashMap<String,Object> tag;
+    private HashMap<String,Object> tag = new HashMap<>();
 
     public HashMap<String, Object> getTag() {
         return tag;
